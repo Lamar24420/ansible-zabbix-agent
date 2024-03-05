@@ -145,7 +145,7 @@
   tags:
     - zabbix-agent
     - config
-    - init
+  
 
 - name: "Create directory for PSK file if not exist."
   file:
