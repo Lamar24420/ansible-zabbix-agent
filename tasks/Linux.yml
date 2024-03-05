@@ -143,7 +143,6 @@
   when:
     - not (zabbix_agent_docker | bool)
   tags:
-    - zabbix-agent
     - config
   
 
