@@ -33,7 +33,6 @@
   tags:
     - zabbix-agent
     - init
-    - config
     - service
 
 - name: "Install local python-netaddr package"
