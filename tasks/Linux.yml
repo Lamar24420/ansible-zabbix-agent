@@ -140,8 +140,6 @@
   notify:
     - restart zabbix-agent
   become: yes
-  when:
-    - not (zabbix_agent_docker | bool)
   tags:
     - config
   
